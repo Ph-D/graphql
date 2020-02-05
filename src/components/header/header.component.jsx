@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {auth} from '../../firebase/firebase.utils';
 import {default as CartIcon} from '../cart-icon/cart-icon.container';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import {default as CartDropdown} from '../cart-dropdown/cart-dropdown.component';
 
 import {ReactComponent as Logo} from '../../assets/crown.svg';
 
